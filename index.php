@@ -38,7 +38,7 @@ function uploadImageFromURLToFacebook($imagePath, $facebookAccessToken) {
 
     // Check for errors
     if ($response === false) {
-        echo "Error: " . curl_error($ch);
+        echo "Error in the line: " . curl_error($ch);
     }
 
     curl_close($ch);

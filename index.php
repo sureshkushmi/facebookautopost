@@ -58,7 +58,7 @@ try {
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Fetch data from the database
-    $stmt = $pdo->query('SELECT name, description, add1, cityId, phone1, phone2, email, url, latitude, longitude, image FROM listings where id=50819');
+    $stmt = $pdo->query('SELECT name, description, add1, cityId, phone1, phone2, email, image FROM listings where id=50819');
     $locations = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Access tokens and page ID

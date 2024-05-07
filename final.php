@@ -39,7 +39,7 @@ function postToFacebook($message, $pageId, $accessToken) {
 
     // Check for errors
     if($response === false) {
-        echo "Error: " . curl_error($ch);
+        echo "Errors: " . curl_error($ch);
     }
 
     curl_close($ch);

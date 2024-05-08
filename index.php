@@ -62,7 +62,7 @@ try {
     $locations = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Access tokens and page ID
-    $facebookAccessToken = "EAAVjleDNSAEBO302jCVFFypt6vdxjihlQWRZAMv0QAdbPZBOwHirJ0cNRAl0nm7HFtSaSlrNOGi6k5obENbnuBiEX9rwxkBxmp7jI0dXsNKNABU12q9xXtO7Bus7DyxUo8ZBEgTa2K10ziUdyOkm59NJDSBfPqu33QmY7iXHRfWMxmTPlhRi9Ya7jy7oNUAv0NIXwc19CyhEy1IZCZAjm6OgA";
+    $facebookAccessToken = "";
     $pageId = "288361071033119"; // Replace with your Facebook Page ID
 
 // Loop through the fetched data and post each entry to Facebook

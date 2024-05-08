@@ -48,7 +48,7 @@ function postToFacebook($message, $pageId, $accessToken) {
 }
 
 // Access tokens and page ID
-$facebookAccessToken = "EAAVjleDNSAEBO4NDt0CdXiL6NfZApWzweXnLEMsjZA3uD3atRdMq7dvhEnALdi92mg6JYLBqWR4LYNVAKaijoAblNJUsbuXzWkRnTGylnSdZBL5iZAYJTbWXPFWpRz4xEGpRo2oae9IFuGWoag42wlVs8iV36OjyuSAVd8zXZA7mVXaCF8W64gC5ie4lmiOvSwZAD4czgACxk0B56KpgavzJBT";
+$facebookAccessToken = "";
 $pageId = "288361071033119"; // Replace with your Facebook Page ID
 
 // Message to post
